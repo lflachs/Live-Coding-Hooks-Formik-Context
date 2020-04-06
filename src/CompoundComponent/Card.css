@@ -1,0 +1,26 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  max-width: 250px;
+  border: 1px solid black;
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1rem;
+}
+
+.card-text {
+  line-height: 25px;
+  color: grey;
+}
+
+.card-img {
+  width: 100%;
+}
